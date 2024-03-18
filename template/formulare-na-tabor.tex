@@ -1,0 +1,206 @@
+\input opmac
+\typosize[11/13]
+\margins/1 a4 (1,1,1,1)in
+\chyph
+\fontfam[timesroman]
+\nopagenumbers
+\parindent=0cm
+
+\def\dotline{\par\hbox to \hsize{\dotfill}\par}
+
+{
+\parskip=0.7cm
+\centerline{\typosize[14/13]\bf Prohlášení o bezinfekčnosti}
+
+Prohlašuji, že ošetřující lékař nenařídil dítěti
+
+Jméno a příjmení\hbox to 10cm{\hbox to 2cm{\hfil}\dotfill {{dite["fullname"]}}\dotfill}
+
+Narozenému\hbox to 10cm{\hbox to 2cm{\hfil}\dotfill {{dite["birth"]}}\dotfill}
+\bigskip
+\hbox to \hsize{Bydliště\hbox to 2cm{\hfil}\dotfill {{dite["street"]}}, {{dite["city"]}}\dotfill}
+
+změnu režimu, dítě nejeví známky onemocnění (průjem, teplota apod.) a okresní hygienik ani ošetřující lékař mu nenařídil karanténní opatření. Není mi též známo, že v posledních dvou týdnech přišlo toto dítě do styku s osobami, které onemocněly přenosnou nemocí.
+
+Dítě je schopno zúčastnit se letního tábora {{dite["taborstart"]}} do {{dite["taborend"]}}
+
+Jsem si vědom(a) právních následků, které by mne postihly, kdyby toto mé prohlášení bylo nepravdivé.}
+
+\vskip 1cm
+
+\hbox to \hsize{\hbox to 10cm{V\dotfill dne \hbox to 2cm{\dotfill}2023}\hfil\hbox to 3.8cm{\dotfill}}
+
+{\hfill\it\typosize[7/13]podpis zákonného zástupce dítěte}
+
+\vfil\break
+\centerline{\typosize[14/13]\bf Zdravotní dotazník}
+\bigskip
+\bigskip
+
+\hbox to \hsize{\dotfill {{dite["fullname"]}}\dotfill\hbox to 1cm{\hfil}\dotfill {{dite["pojistovna"]}}\dotfill\hbox to 1cm{\hfil}\dotfill {{dite["birthnum"]}}\dotfill}
+
+\hbox to \hsize{\typosize[7/13]\hbox to 1.5cm{\hfil}Jméno a příjmení\hfil Číslo zdrav. pojišťovny\hfil Rodné číslo\hbox to 1.5cm{\hfil}}
+
+\typosize[11/18]
+\vskip 0.7cm
+Onemocnění prodělaná v nedávné době, léky použité pro léčbu:
+\dotline\dotline
+\smallskip
+Pravidelně brané léky vč. dávkování: 
+\dotline\dotline
+\smallskip
+Chronické nebo pravidelné zdravotní obtíže:
+\dotline\dotline
+\smallskip
+Vážnější onemocnění nebo úrazy prodělané dříve, jejich následky:
+\dotline\dotline
+\smallskip
+Prodělané dětské infekční choroby:
+\dotline\dotline
+\smallskip
+Operace:
+\dotline\dotline
+\smallskip
+Přecitlivělost, alergie na látky, jejich projevy, léky vč. dávkování:
+\dotline\dotline\dotline\dotline\dotline
+\smallskip
+U svého dítěte upozorňuji na (fobie, chování, indispozice):
+\dotline\dotline
+\smallskip
+Jiné informace:
+\dotline\dotline\smallskip
+
+Těmito informacemi se řídíme, když je třeba jednat rychle. Děkujeme za pečlivé vyplnění.
+\smallskip
+
+\hbox to \hsize{\hbox to 10cm{V\dotfill dne \hbox to 2cm{\dotfill}2023}\hfil\hbox to 3.8cm{\dotfill}}
+
+{\hfill\it\typosize[7/13]podpis zákonného zástupce dítěte}
+
+\vfil\break
+
+\centerline{\typosize[14/13]\bf Letní skautský tábor Kamenný Malíkov - důležité informace}
+\bigskip
+
+\typosize[11/13]
+{\bf Schůzka s rodiči:}
+
+\begitems
+* Ve středu 7. 6. 2023 od 18:30 do 19:00 v naší klubovně
+\enditems
+
+{\bf Předtáborový sraz:}
+
+\begitems
+\hbox{\hbox to 0.7cm{}*\hbox to 3.3cm{Pátek 30. 6. 2023\hfil}18:00 - 19:00 v naší klubovně}
+\hbox{\hbox to 0.7cm{}*\hbox to 3.3cm{Účastníci přinesou:\hfil}zavazadla}
+\hbox{\hbox to 4cm{\hfil}zdravotní dotazník}
+\hbox{\hbox to 4cm{\hfil}léky}
+\hbox{\hbox to 4cm{\hfil}potvrzení lékaře o způsobilosti dítěte účastnit se tábora, \bf má platnost dva roky}
+\hbox{\hbox to 4cm{\hfil}průkaz pojištěnce}
+\enditems
+
+{\bf Odjezd:}
+\begitems
+* {{ "Neděle 2. 7. 2023" if dite["category"] == "Skaut" else "Pátek 7. 7. 2023" }}
+* {{"Sraz bude v 11:40" if dite["category"] == "Skaut" else "Sraz bude v 16:40"}} na vlakovém nádraží České Budějovice pod tabulí odjezdů.
+* Rodiče odevzdají: vyplňené {\bf prohlášení o beinfekčnosti s datem odjezdu na tábor}
+* Dítě bude mít: připravené pracovní oblečení, na sobě kroj či skautské tričko, jídlo a pití na cestu (začínáme večeří), pláštěnku, pevnou obuv
+\enditems
+
+{\bf Návštěvní den:}
+\begitems
+* V pátek {\bf 14. 7. 2023 od 17:30}. Prosím dodržet tento čas. Dřívější příchod nám naruší denní režim tábora. Slavnostní nástup bude v 18:00. 
+* Auta se nechávají na parkovišti cca 500 m od tábora, zde bude přistaveno auto na hromadný odvoz zavazadel. Detaily večera se dozvíte na předtáborové schůzce.
+\enditems
+
+{\bf Adresa na tábor:}
+
+\parindent=4cm
+
+Jméno, 10. oddíl skautů ČB
+
+Obecní úřad
+
+Kamenný Malíkov 54
+
+378 42 pošta Nová Včelnice
+
+\parindent=0cm
+
+{\bf Telefonické spojení:}
+\begitems
+*773 073 116 (Daniel Veselý „Danda“ - oddílový vedoucí)
+*774 412 895 (Tom Šefrna - zástupce vedoucího)
+*604 847 711 (Ondřej Hlavatý „Klíště“ - zdravotník tábora)
+\enditems
+\vfil\break
+
+\centerline{\typosize[14/13]\bf Letní skautský tábor Kamenný Malíkov - seznam věcí}
+\bigskip
+{{ "\def\item#1,#2{\par\hbox{\hbox to 2cm{#1\hfil}#2\hfil}}" }}
+
+
+{\bf Oblečení:}\smallskip
+\item,{spodní prádlo(na sebe každý den nové + náhradní)}
+\item,{ponožky slabé (na každý den + náhradní)}
+\item{3 ks},{ponožky silné}
+\item{6 ks},{trička}
+\item{3 ks},{mikina}
+\item{1 ks},{bunda - větrovka}
+\item{2 ks},{kraťasy}
+\item{dostatek},{dlouhé kalhoty (na běhání po lese, sezení u ohně, do deště a chladného počasí)}
+\item{},{skautský kroj nebo oddílové triko, včetně šátku a jednobarevných kalhot (džíny)}
+\item{1 ks},{plavky}
+\item{1 ks},{čepice/kšiltovka}
+\item{1 ks},{kvalitní pláštěnka}
+
+\vskip 0.5cm
+{\bf Boty:}\smallskip
+\item{1 ks},{sandále/pantofle (na chození venku po tábořišti)}
+\item{1 ks},{tenisky (např. na běhání po lese při hrách)}
+\item{1 ks},{pevná obuv (na delší výlety, či práci v terénu)}
+\item{},{boty do vody (dno řeky je kamenité, mohou tam být ostré předměty)}
+\item{1 ks},{holínky}
+\vskip 0.5cm
+
+{\bf Hygienické potřeby:}\smallskip
+\begitems
+*kapesníky 
+*mýdlo, šampon, kartáček, zubní pasta
+*ručník, osuška
+*krém na opalování, sluneční brýle
+*repelent
+*balzám na rty (“jelení lůj”)
+\enditems
+
+{\bf Potřeby na spaní:}\smallskip
+\begitems
+*spacák, deka, karimatka, polštářek
+*oblečení na spaní, mikina, kulich
+\enditems
+
+{\bf Potřeby na jídlo:}\smallskip
+\begitems
+*plechový nebo umělohmotný hrnek (podepsaný jménem)
+*alespoň dvoudílný ešus (podepsaný jménem)
+*příbory
+*láhev na pití
+\enditems
+
+{\bf Ostatní:}\smallskip
+\begitems
+*skautské vybavení (kroj, zápisník, KPZ, stezku)
+*kapesné max. 200 Kč
+*igelitka na špinavé prádlo, malý batůžek na výlety
+*svítilnu/čelovku + rezervní baterie
+*budík nebo jiný ukazatel času
+\enditems
+
+{\bf Doporučené:}\smallskip
+\begitems
+*nafukovací matrace na koupání v řece
+*hamaka či houpací síť na odpočinek
+*kniha, křížovky, karty, …
+\enditems
+\bye
